@@ -56,7 +56,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-
+  console.log(post.frontmatter.featuredimage.publicURL);
   return (
     <Layout>
       <BlogPostTemplate
@@ -97,6 +97,14 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          publicURL
+          childImageSharp {
+            fluid(maxWidth: 250, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
