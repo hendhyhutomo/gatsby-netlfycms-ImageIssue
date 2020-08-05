@@ -24,7 +24,8 @@ The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-pr
 Lorem Ipsum
 - roaster  
 Lorem Ipsum
-- importers/exporters
+- importers/exporters  
+Lorem Ipsum
 - retailers Lorem Ipsum
 - manufacturers Lorem Ipsum
 - baristas Lorem Ipsum
