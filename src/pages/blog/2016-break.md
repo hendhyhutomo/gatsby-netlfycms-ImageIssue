@@ -26,7 +26,8 @@ Lorem Ipsum
 Lorem Ipsum
 - importers/exporters  
 Lorem Ipsum
-- retailers Lorem Ipsum
+- retailers  
+Lorem Ipsum
 - manufacturers Lorem Ipsum
 - baristas Lorem Ipsum
 
